@@ -1,0 +1,18 @@
+#wrap {
+    width: 960px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+footer {
+    clear: both;
+}
+
