@@ -5,20 +5,15 @@ body {
     color: black;
 }
 
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
 a:link, a:active, a:visited {
-    color: #315e8a;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-    background-color: black;
-    padding: 1px;
-}
-
-
-
-/* Grid 960px */
+/* Grid 960px  #315e8a*/
 
 .linha {
     width: 960px;
@@ -73,10 +68,134 @@ a:hover {
 /* Estilos Reutilizáveis */
 
 .sem-padding {
-    padding: 0 |important;
+    padding: 0 !important;
+}
+
+.sem-margin {
+    margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 16px 0px 8px 0px;
+}
+h1 {
+    font-size: 56px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right: 16px;
+}
+
+ul.inline li:last-child, ol.inline li:last-child{
+    margin-right: 0px;
+}
+
+ul.sem-marcador, ol.sem-marcador {
+    list-style: none;
+}
+
+a.botao, input.botao {
+    background: #1f3c58;
+    padding: 8px 16px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 8px 0;
+    border: none;
+}
+
+a.botao:hover, input.botao:hover {
+    background: #315e8a;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    box-shadow: 1px 1px 5px black; 
+}
+
+/* Layuot Site **/
+
+.header {
+    background: #d0021b;
+}
+
+.cabecalho {
+    font-family: 'Anton', sans-serif;
+    background-color: rgba(0, 0, 0, 0.09);
+    font-size: 14px;
 
 }
 
+h1#cabecalho {
+    font-size: 24px;
+}
+
+span#cabecalho {
+    color: #c9ae14;
+ 
+}
+
+.conteudo-principal {
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.conteudo-extra {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 0px;
+}
+
+.text-footer {
+    text-shadow: 1px 1px 10px black;
+    color: white;
+}
+
+.menu {
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 20px;
+    
+}
+
+.menu li a {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: yellow;
+}
+
+.menu li a:hover {
+    background-color: black;
+    padding: 10px;
+    
+}
 
 
 
@@ -84,7 +203,7 @@ a:hover {
 
 font-family: 'Anton', sans-serif;
 font-family: 'Roboto', sans-serif;
-
+#c9ae14
 */
 
 
