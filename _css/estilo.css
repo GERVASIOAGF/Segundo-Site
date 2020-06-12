@@ -236,6 +236,33 @@ ul.idolos li p {
     font-size: 32px;
 }
 
+ul.ultimas-noticias li {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ul.ultimas-noticias li img {
+    width: 50px;
+    height: 50px;
+    float: left; 
+}
+
+ul.ultimas-noticias p {
+    text-align: justify;
+    margin-left: 60px;   
+}
+ul.ultimas-noticias a {
+    display: block;
+    text-align: right;
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
 
 
 
