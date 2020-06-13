@@ -265,12 +265,69 @@ ul.ultimas-noticias a {
 
 /* Page História */
 
-img.historia1 {
-    width: 312;
-    height: 474;
-    border: 10px solid black;
-    float: right;
+img.aquino {
+    width: 312px;
+    height: 474px;
+    margin: 40px 0px 10px 32px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
 }
+
+figcaption.aquino {
+    opacity: 0;
+    position: absolute;
+    font-size: 10px;
+    text-align: left;
+    text-overflow: clip;
+    margin: -490px 0px 10px 32px;
+    width: 312px;
+    height: 474px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px black;
+    color: white;
+    border: 1px solid rgba(0,0,0,.3);
+    transition: opacity 1s;
+    cursor: pointer;
+    
+}
+
+figcaption.aquino:hover {
+    opacity: 1;
+}
+
+img.fatima {
+    margin: 10px 70px;
+    width: 134px;
+    height: 240px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+ 
+}
+
+figcaption.fatima {
+    opacity: 0;
+    position: absolute;
+    font-size: 10px;
+    text-align: left;
+    text-overflow: clip;
+    margin: -255px 0px 0px 69px;
+    width: 134px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px black;
+    color: white;
+    border: 1px solid rgba(0,0,0,.3);
+    transition: opacity 1s;
+    cursor: pointer;
+    
+}
+
+figcaption.fatima:hover {
+    opacity: 1;
+    
+}
+
+
 
 
 
