@@ -1,0 +1,1 @@
+alert('Esse é o meu primeiro código JS');
