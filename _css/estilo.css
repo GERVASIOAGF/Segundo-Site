@@ -167,9 +167,22 @@ div.redes-sociais{
     position: absolute;
 }
  nav.menu-opcoes ul {
-     margin: 30px -10px 30px 10px;
+     margin: 30px 0px 30px 50px;
+     float: right;
  }
 
+li#busca input {
+    width: 160px;
+    height: 10px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('../_img/busca1.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+
+}
 .cabecalho {
     font-family: 'Anton', sans-serif;
     background-color: rgba(0, 0, 0, 0.09);
@@ -213,7 +226,7 @@ span#cabecalho {
 }
 
 .menu li a {
-    padding: 5px 5px;
+    padding: 2px 2px;
     border-radius: 3px;
     color: yellow;
 }
