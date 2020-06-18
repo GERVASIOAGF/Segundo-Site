@@ -135,12 +135,40 @@ iframe {
     box-shadow: 1px 1px 5px black; 
 }
 
+
+/** cabeçalho redes sociais */
+
+ul.redes-sociais {
+    margin: 6px 0px 1px 785px;
+}
+ul.redes-sociais li{
+    display: inline-block;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+div.redes-sociais{
+    background-color: black;
+}
+
+
 /* Layuot Site **/
 
 .header {
     background: #d0021b;
 }
 
+.menu-logo img {
+    margin-top: -60px;
+    position: absolute;
+}
+ nav.menu-opcoes ul {
+     margin: 30px -10px 30px 10px;
+ }
 
 .cabecalho {
     font-family: 'Anton', sans-serif;
