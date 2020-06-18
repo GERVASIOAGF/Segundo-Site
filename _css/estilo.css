@@ -139,7 +139,7 @@ iframe {
 /** cabeçalho redes sociais */
 
 ul.redes-sociais {
-    margin: 6px 0px 1px 785px;
+    margin: 8px 0px -4px 785px;
 }
 ul.redes-sociais li{
     display: inline-block;
@@ -163,7 +163,8 @@ div.redes-sociais{
 }
 
 .menu-logo img {
-    margin-top: -60px;
+    margin-top: -55px;
+    margin-left: -20px;
     position: absolute;
 }
  nav.menu-opcoes ul {
@@ -226,16 +227,15 @@ span#cabecalho {
 }
 
 .menu li a {
-    padding: 2px 2px;
-    border-radius: 3px;
+    padding: 5px;
     color: yellow;
 }
 
-.menu li a:hover {
-    background-color: black;
+.menu li#menu-principal a:hover {
+    background-color:rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    border-radius: 5px;
-    padding: 5px;
+    padding: 40px 5px 38px 5px;
+    border-bottom: 2px solid yellow;
 }
 
 ul.idolos li {
