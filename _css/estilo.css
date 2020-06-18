@@ -451,6 +451,18 @@ ul.cancoes {
     margin-left: 120px;
 }
 
+/* Page Fotos */
+
+.galeria-fotos {
+    margin: 50px 0px 50px 0px;
+
+}
+
+.galeria-fotos img {
+    width: 100px;
+    height: 150px;
+}
+
 
 
 
