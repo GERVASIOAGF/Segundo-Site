@@ -454,24 +454,63 @@ ul.cancoes {
 /* Page Fotos */
 
 .galeria-fotos {
-    margin: 50px 0px 50px 0px;
-
+    margin-top: 100px;
 }
 
 .galeria-fotos img {
-    width: 60px;
-    height: 180px;
+    width: 170px;
+    height: 270px;
     margin: 50px;
     transform: scale(0.6);
+    text-align: center;
 }
 
 .galeria-fotos .slide.slick-center{
     transform: scale(1.2);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;   
+    transition: 1.0s;
+    -webkit-transition: 1.0s;
+    -moz-transition: 1.0s;
+    -o-transition: 1.0s;   
+    outline: none;
 }
+
+.galeria-fotos .slide.slick-center:hover {
+    transform: scale(1.5);
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
+.fotos-seletores {
+    text-align: center;
+    margin-top: -5px;  
+}
+
+.fotos-seletores #seta-esquerda, #seta-direita{
+    cursor: pointer;
+}
+
+.fotos-seletores #seta-esquerda {
+    margin-right: -200px;
+}
+
+.fotos-seletores #seta-direita {
+    margin-left: -200px;
+}
+
+.ficha-jogador {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.ficha-jogador #descricao-jogador {
+    font-size: 40px;
+}
+
+
+
 
 
 
