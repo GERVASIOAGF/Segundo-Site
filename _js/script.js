@@ -15,6 +15,8 @@ $(function () {
        slidesToShow: 3,
        slidesToScroll: 1,
        centerMode: true,
+       autoplay: true,
+       autoplaySpeed: 2000,
        prevArrow: $("#seta-esquerda"),
        nextArrow: $("#seta-direita"),
        responsive: [
