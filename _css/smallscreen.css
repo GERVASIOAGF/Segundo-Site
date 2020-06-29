@@ -70,7 +70,14 @@
         margin-left: -50px;
     }
     .menu-opcoes {
-        display: none;
+        font-size: 0;
+        background-image:url('../_img/menu-mobile.png');
+    }
+
+    .logo-principal img{
+        width: 129px;
+        height: 82px;
+        margin-top: -40px;
     }
 
     /* ==== IFRAME ==== */
