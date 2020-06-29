@@ -1,0 +1,108 @@
+/*======== MOBILE FIRST ========*/
+
+/* SMALL DEVICES - SMARTPHONES */
+
+@media only screen and (max-width: 500px) {
+    .header {
+        background: #d0021b;
+    }
+
+    .linha{
+        max-width: 320px;
+    }
+
+    .col1 {
+        width: 300px;
+    }
+    .col2 {
+        width: 300px;
+    }
+    .col3 {
+        width: 300px;
+    }
+    .col4 {
+        width: 300px;
+    }
+    .col5 {
+        width: 300px;
+    }
+    .col6 {
+        width: 300px;
+    }
+    .col7 {
+        width: 300px;
+    }
+    .col8 {
+        width: 300px;
+    }
+    .col9 {
+        width: 300px;
+    }
+    .col10 {
+        width: 300px;
+    }
+    .col11 {
+        width: 300px;
+    }
+    .col12 {
+        width: 300px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+        margin: 16px 0px 8px 0px;
+    }
+    h1 {
+        font-size: 56px;
+        text-align: justify;
+    }
+    
+    h2 {
+        font-size: 24px;
+        text-align: justify;
+    }
+    p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    /* ==== MENU ==== */
+    .menu-logo {
+        margin-left: -50px;
+    }
+    .menu-opcoes {
+        display: none;
+    }
+
+    /* ==== IFRAME ==== */
+
+    iframe {
+        width: 320px;
+        height: 50%;
+    }
+
+    /* ==== Redes Sociais ====*/
+    ul.redes-sociais {
+        text-align: right;
+        margin: 0px 0px 0px 45%;
+        
+
+    }
+    ul.redes-sociais li{
+        display: inline-block;
+    }
+    
+    .redes-sociais img {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        
+    }
+
+    /* ==== Footer ==== */
+    .text-footer {
+        text-align: center;
+        font-size: 10px;
+        width: 320px;
+    }
+
+}
