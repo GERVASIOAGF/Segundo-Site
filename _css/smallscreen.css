@@ -74,15 +74,14 @@
         display: none;
     }
     li#busca input{
-        background-image: url('../_img/leonardo.png');
-        width: 160px;
-        height: 100px;
-        background-repeat: no-repeat;
-        background-position: 95%;
-        
+        display: none;        
     }
-
-    .logo-principal img{
+    .botao-menu {
+        display: block;  
+        width: 30px;
+        height: 30px;
+    }
+    .logo-principal img {
         width: 129px;
         height: 82px;
         margin-top: -40px;

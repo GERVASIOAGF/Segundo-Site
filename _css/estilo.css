@@ -182,8 +182,12 @@ li#busca input {
     background-image: url('../_img/busca1.png');
     background-repeat: no-repeat;
     background-position: 95%;
-
 }
+
+.botao-menu {
+    display: none;
+}
+
 .cabecalho {
     font-family: 'Anton', sans-serif;
     background-color: rgba(0, 0, 0, 0.09);
