@@ -77,14 +77,22 @@
         display: none;        
     }
     .botao-menu {
-        display: block;  
-        width: 30px;
-        height: 30px;
+        display: inline-block;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background: url('../_img/menu-mobile.png') no-repeat;
+        text-align: center;
+        background-position: center;
+        border: solid 1px;
+        border-radius: 60px;
+        margin-top: 8px;
     }
+
     .logo-principal img {
-        width: 129px;
-        height: 82px;
-        margin-top: -40px;
+        width: 194px;
+        height: 123px;
+        margin-top: -45px;
     }
 
     /* ==== IFRAME ==== */
