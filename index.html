@@ -12,6 +12,8 @@
 
     
         <title>Sport - O Maior do Nordeste</title>
+
+
     </head>
     <body>
         <div class="header">
@@ -40,6 +42,8 @@
                     </div>
 
                     <div class="coluna col12">
+                        <button class="botao-menu"></button>
+
                         <nav class="menu-opcoes">
                             <a class="btn-close"> x </a>
                             <ul class="menu inline sem-marcador">
@@ -64,12 +68,13 @@
                                 <li id="busca">
                                     <input placeholder="Search Something" type="text" />        
                                 </li>
+                                
                             </ul>
+
                         </nav>
+
                     </div>
-                    
-                    <button class="botao-menu"></button>
-                                    
+
                 </header>
             </div>
         </div>
@@ -232,9 +237,17 @@
             </div>
         </div>
 
+        <script type="text/javascript" src="_js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="_js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="_slick/slick.min.js"></script>
+        <script type="text/javascript" src="_js/script.js"></script>
+
         <script>
             $(".botao-menu").click(function(){
                 $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+                $(".menu").hide();
             });
         </script>
         
