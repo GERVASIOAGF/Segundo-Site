@@ -141,6 +141,7 @@ iframe {
 ul.redes-sociais {
     margin: 8px 0px -4px 785px;
 }
+
 ul.redes-sociais li{
     display: inline-block;
 }
@@ -168,9 +169,9 @@ div.redes-sociais{
     position: absolute;
 }
  nav.menu-opcoes ul {
-     margin: 30px 0px 30px 50px;
-     float: right;
- }
+    margin: 30px 0px 30px 50px;
+    float: right;
+}
 
 li#busca input {
     width: 160px;
@@ -199,8 +200,7 @@ h1#cabecalho {
 }
 
 span#cabecalho {
-    color: #c9ae14;
- 
+    color: #c9ae14; 
 }
 
 .conteudo-principal {
@@ -226,8 +226,7 @@ span#cabecalho {
 .menu {
     text-transform: uppercase;
     text-align: right;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 
 .menu li a {
@@ -333,8 +332,7 @@ figcaption.aquino {
     color: white;
     border: 1px solid rgba(0,0,0,.3);
     transition: opacity 1s;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 figcaption.aquino:hover {
@@ -346,8 +344,7 @@ img.fatima {
     width: 151px;
     height: 270px;
     border: 1px solid black;
-    box-shadow: 1px 1px 10px black;
- 
+    box-shadow: 1px 1px 10px black; 
 }
 
 figcaption.fatima {

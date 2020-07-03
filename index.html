@@ -41,6 +41,7 @@
 
                     <div class="coluna col12">
                         <nav class="menu-opcoes">
+                            <a class="btn-close"> x </a>
                             <ul class="menu inline sem-marcador">
                                 <li id="menu-principal">
                                     <a href="index.html">Home</a>
@@ -67,9 +68,8 @@
                         </nav>
                     </div>
                     
-                        <button class="botao-menu">
-                            
-                        </button>
+                    <button class="botao-menu"></button>
+                                    
                 </header>
             </div>
         </div>
@@ -231,6 +231,12 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            $(".botao-menu").click(function(){
+                $(".menu").show();
+            });
+        </script>
         
 
  

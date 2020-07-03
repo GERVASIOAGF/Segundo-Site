@@ -14,43 +14,56 @@
     .col1 {
         width: 300px;
     }
+
     .col2 {
         width: 300px;
     }
+
     .col3 {
         width: 300px;
     }
+
     .col4 {
         width: 300px;
     }
+
     .col5 {
         width: 300px;
     }
+
     .col6 {
         width: 300px;
     }
+
     .col7 {
         width: 300px;
     }
+
     .col8 {
         width: 300px;
     }
+
     .col9 {
         width: 300px;
     }
+
     .col10 {
         width: 300px;
     }
+
     .col11 {
         width: 300px;
     }
+
     .col12 {
         width: 300px;
     }
+
     h1, h2, h3, h4, h5, h6 {
         font-weight: 500;
         margin: 16px 0px 8px 0px;
     }
+
     h1 {
         font-size: 50px;
         text-align: justify;
@@ -61,21 +74,28 @@
         text-align: justify;
         font-weight: 600;
     }
+
     p {
         text-align: justify;
         font-size: 18px;
     }
 
     /* ==== MENU ==== */
+
+    .logo-principal img {
+        width: 194px;
+        height: 123px;
+        margin-top: -45px;
+    }
+
     .menu-logo {
         margin-left: -50px;
     }
-    .menu-opcoes li#menu-principal{
-        display: none;
-    }
+
     li#busca input{
         display: none;        
     }
+
     .botao-menu {
         display: inline-block;
         cursor: pointer;
@@ -85,15 +105,52 @@
         text-align: center;
         background-position: center;
         border: solid 1px;
-        border-radius: 60px;
+        border-radius: 40px;
         margin-top: 8px;
     }
 
-    .logo-principal img {
-        width: 194px;
-        height: 123px;
-        margin-top: -45px;
+    .menu-opcoes {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
     }
+
+    .btn-close {
+        font-size: 30px;
+        color: #ffffff;
+        float: right;
+        cursor: pointer;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
+    .menu-opcoes ul{
+        width: 100%;
+        float: left;
+        text-align: left;
+        position: relative;
+    }
+
+    .menu-opcoes li {
+        margin-left: 150px;
+        padding: 1%;
+    }
+
+    .menu-opcoes li a {
+        font-size: 45px;
+        padding: 2%;
+    }
+    .menu li#menu-principal a:hover{
+        color: teal;
+        padding: 0px;
+        border-bottom: none;
+        background-color:rgba(0, 0, 0, 0.9);
+    }
+
+
 
     /* ==== IFRAME ==== */
 
@@ -105,10 +162,9 @@
     /* ==== Redes Sociais ====*/
     ul.redes-sociais {
         text-align: right;
-        margin: 0px 0px 0px 45%;
-        
-
+        margin: 0px 0px 0px 45%;      
     }
+
     ul.redes-sociais li{
         display: inline-block;
     }
@@ -116,8 +172,7 @@
     .redes-sociais img {
         width: 30px;
         height: 30px;
-        margin-left: 5px;
-        
+        margin-left: 5px;        
     }
 
     /* ==== Footer ==== */
