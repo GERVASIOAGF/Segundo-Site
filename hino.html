@@ -2,15 +2,18 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="Sport Clube do Recife - O Maior do Nordeste"/>
         <meta name="keywords" content="Sport, Futebol, Pernambuco, O maior do nordeste"/>
         <meta name="author" content="Gervásio Amorim"/>
         <link rel="stylesheet" href="_css/estilo.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="_css/smallscreen.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 
     
         <title>Sport - O Maior do Nordeste</title>
+
+
     </head>
     <body>
         <div class="header">
@@ -35,10 +38,13 @@
             <div class="linha">
                 <header class="menu-logo">
                     <div class="coluna col4">
-                        <img src="_img/sport_logo_hor-1-1.png" alt="sport-logo">
+                        <a class="logo-principal"> <img src="_img/sport_logo_hor-1-1.png" alt="sport-logo"> </a>
                     </div>
+
                     <div class="coluna col12">
+
                         <nav class="menu-opcoes">
+                            <a class="btn-close"> x </a>
                             <ul class="menu inline sem-marcador">
                                 <li id="menu-principal">
                                     <a href="index.html">Home</a>
@@ -59,12 +65,18 @@
                                     <a href="videos.html">Vídeos</a>
                                 </li>
                                 <li id="busca">
-                                    <input placeholder="Search Something" type="text" />
+                                    <input placeholder="Search Something" type="text" />        
                                 </li>
+                                
                             </ul>
+
                         </nav>
+
                     </div>
+
                 </header>
+
+                <button class="botao-menu"></button> 
             </div>
         </div>
 
@@ -196,6 +208,20 @@
             </div>
         </div>
 
+        <script type="text/javascript" src="_js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="_js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="_slick/slick.min.js"></script>
+        <script type="text/javascript" src="_js/script.js"></script>
+
+        <script>
+            $(".botao-menu").click(function(){
+                $(".menu-opcoes").show();
+            });
+            $(".btn-close").click(function(){
+                $(".menu-opcoes").hide();
+            });
+        </script>
+        
     </body>
 </html>
 
